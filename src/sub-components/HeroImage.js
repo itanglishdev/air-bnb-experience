@@ -1,6 +1,8 @@
+import image from '../images/Group82.png'
+
 function HeroImage() {
     return ( 
-        <img className="hero-image" src="../images/Group 82.png" alt="" />
+        <img className="hero-image" src={image} alt="<= HERE" />
      );
 }
 

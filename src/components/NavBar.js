@@ -1,8 +1,9 @@
 import '../styles.css'
+import logo from '../images/airbnb-logo.png'
 function NavBar() {
     return ( 
         <nav>
-            <img src="https://www.1min30.com/logo/wp-content/uploads/2018/02/Airbnb-Logo.png" alt="AirBNB" />
+            <img className='main-logo' src={logo} alt="AirBNB" />
             
         </nav>
      );

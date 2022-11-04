@@ -9,6 +9,27 @@ body {
 nav {
     height:100px;
     display: flex;
-    padding: 20px 36px;
+    padding: 10px 36px;
     box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+}
+.hero-image {
+    display: flex;
+   margin: auto;
+   height: 300px;
+}
+.main-logo {
+    height: 100px;
+}
+
+.hero {
+    font-family: 'Poppins';
+    padding: 30px;
+}
+.title {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.title__sub-paragraph {
+font-size:16px ;
 }
