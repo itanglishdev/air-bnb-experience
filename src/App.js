@@ -8,7 +8,9 @@ function App() {
     <div >
       <NavBar/>
       <Hero/>
-      <Card/>
+      <div>
+        <Card/>
+      </div>
     </div>
   );
 }
