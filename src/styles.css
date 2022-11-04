@@ -4,6 +4,7 @@
 
 body {
     margin: 0;
+    font-family: 'Poppins';
 }
 
 nav {
@@ -22,14 +23,35 @@ nav {
 }
 
 .hero {
-    font-family: 'Poppins';
+   
     padding: 30px;
 }
 .title {
     font-size: 36px;
     font-weight: bold;
+    margin-bottom: 0;
 }
 
 .title__sub-paragraph {
-font-size:16px ;
+    font-size:16px ;
+    margin-top: 0;
+}
+.card {
+    width: 220px;
+     font-size: 14px;
+     margin: 30px;
+}
+
+.card-image {
+   
+    width: 200px;
+}
+
+span {
+    color: rgb(85, 83, 83);
+}
+
+.star {
+  vertical-align: middle;
+    height: 14px;
 }
