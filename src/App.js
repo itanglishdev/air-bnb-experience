@@ -10,15 +10,16 @@ import data from './Data'
 function App() {
 
 
-  const card = data.map((item,idx) => {
+  const card = data.map((item) => {
     return (<Card 
-    key={idx}
+    key={item.id}
     img={item.coverImg}
     rating={item.stats.rating}
     reviewCount={item.stats.reviewCount}
     country={item.location}
     title={item.title}
-    price={item.price} />)
+    price={item.price}
+    openSpots={item.openSpots} />)
   }
   )
 

@@ -16,7 +16,7 @@ nav {
 .hero-image {
     display: flex;
    margin: auto;
-   height: 260px;
+   height: 300px;
 }
 .main-logo {
     height: 80px;
@@ -60,4 +60,5 @@ span {
 }
 .cards-presentation{
     display: flex;
+    overflow: hidden;
 }
