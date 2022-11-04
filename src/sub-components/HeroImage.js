@@ -1,4 +1,4 @@
-import mainPic from '../images/Group82.png'
+import mainPic from '../components/images/Group82.png'
 
 function HeroImage() {
     return ( 

@@ -11,30 +11,23 @@ function App() {
 
 
   const card = data.map((item,idx) => {
-    return <Card 
-    key={item.id}
+    return (<Card 
+    key={idx}
     img={item.coverImg}
     rating={item.stats.rating}
     reviewCount={item.stats.reviewCount}
     country={item.location}
     title={item.title}
-    price={item.price} />
-  })
+    price={item.price} />)
+  }
+  )
 
   return (
     <div >
       <NavBar/>
       <Hero/>
-      <div>
+      <div className='cards-presentation'>
         {card}
-        {/* <Card
-        img="image12"
-        rating={'5.0'}
-        reviewCount={6}
-        country={'USA'}
-        title={'Life Lessons with Marie Zafares'}
-        price={136}
-        /> */}
       </div>
     </div>
   );
