@@ -15,7 +15,7 @@ function Card(props) {
            {badgeText && <div className="card--badge">{badgeText}</div>}
             <img className='card-image' src={props.item.coverImg} alt="swimmer" />
             <div className="card-tag">
-                <p><img className='star' src={star} alt="" /> {props.item.stats.rating} <span> ({props.item.stats.reviewCount}) &middot; {props.item.country} </span></p>
+                <p><img className='star' src={star} alt="" /> {props.item.stats.rating} <span> ({props.item.stats.reviewCount}) &middot; {props.item.location} </span></p>
                 <p className="card-tag__title">{props.item.title}</p>
                 <p className="card-tag__price"><strong>From {props.item.price}$ </strong>/ person</p>
         </div>   
