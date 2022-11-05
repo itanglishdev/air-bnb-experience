@@ -1,4 +1,3 @@
-// import image from '../images/image 12.png'
 import star from '../components/images/Star1.png'
 
 
@@ -14,7 +13,7 @@ function Card(props) {
 
     return ( 
         <div className="card">
-           <div className="card--badge">{badgeText}</div>
+           {badgeText && <div className="card--badge">{badgeText}</div>}
             <img className='card-image' src={props.img} alt="swimmer" />
             <div className="card-tag">
                 <p><img className='star' src={star} alt="" /> {props.rating} <span> ({props.reviewCount}) &middot; {props.country} </span></p>
