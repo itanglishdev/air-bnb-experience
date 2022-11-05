@@ -19,7 +19,8 @@ function App() {
     country={item.location}
     title={item.title}
     price={item.price}
-    openSpots={item.openSpots} />)
+    openSpots={item.openSpots}
+    location={item.location} />)
   }
   )
 

@@ -43,6 +43,7 @@ nav {
     width: 220px;
      font-size: 14px;
      margin: 30px;
+     position: relative;
 }
 
 .card-image {
@@ -61,4 +62,16 @@ span {
 .cards-presentation{
     display: flex;
     overflow: hidden;
+}
+.card--badge {
+    position: absolute;
+    background-color: azure;
+    padding: 3px;
+    left: 8px;
+    top: 8px;
+    border-radius: 2px;
+    font-weight: bold;
+}
+.card--badge__online {
+    position: initial;
 }
